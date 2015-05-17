@@ -101,6 +101,7 @@ printf("\t#############\n\n\n");
     scanf("%s",fName);
     printf("\tE-mail:");
     scanf("%s",email);
+    printf("\n*Please Follow following Instruction for a good Password.\n\n1-Password must contain Special Numeric keys.\n2-\"0-7\" Considered as Weak \"8-14\" Considered as Medium and \"15->\" is Considered as Password of Strong Strength.\n");
     passagain:
     printf("\tPassword:");
     
@@ -816,6 +817,5 @@ void massage()
 
 
 }
-
 
 
